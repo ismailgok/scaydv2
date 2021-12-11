@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.temizle{clear:both;}
+
+/* GENEL */
+#genel{width: 1170px;margin: 0 auto;height: auto;}
+
+/* HEADER */
+#header{width: 1170px;height:300px;}
+/* Ust Menu */
+#ustmenu{width:1170px;height:40px;background: #333;}
+#ustmenu ul{width:800px;float:left;}
+#ustmenu li{float:left;}
+#ustmenu li a{padding:12px 16px;text-decoration: none;margin:auto;display: block;color:white;font:14px sans-serif;}
+#ustmenu li a:hover{background:#999;}
+/* Arama kutusu */
+#arama{width:300px;float:right;}
+#arama input{float:right;width:250px;height:39px;background:#333;border:none;color: #f1f1f1;}
+.arabuton{margin-left:20px;}
+#arama img{cursor:pointer;margin-top:10px;height:20px;}
+
+/* LOGO */
+#logo{width:500px;height:190px;float:left;}
+#logo img{width:500px;height:190px;float:left;cursor:pointer;}
+
+/* REKLAM */
+#reklam{width:450px;height:70px;float:right;margin-top:65px;margin-right:90px;}
+#reklam img{width:450px;height:70px;}
+.temizle{clear:both;}
+/* MENÜ */
+#menu{width:1170px;overflow: hidden;margin-top:17px;}
+#menu li{float:left;}
+#menu li a{display:block;padding:21px 22px;text-decoration: none;background:#ee3b3b;color: white;font:15px sans-serif;-o-transition: background 0.7s;-moz-transition: background 0.7s;-webkit-transition: background 0.7s;}
+#menu li a:hover{background:#00ced1;-webkit-transition: background 0.7s;-moz-transition: background 0.7s;-o-transition: background 0.7s;}
+
+/* İCERİK */
+#icerik{background:#f1f1f1;width:700px;border:2px solid #ddd;height:auto;margin-top:15px;float:left;}
+
+/* MAKALE */
+.makale{width:700px;height:380px;}
+.makale p{width:450px;float:right;font:14px sans-serif;margin-left:5px;margin-top:20px;}
+.makale a{color: #cd950c;font:13px arial;}
+
+/* Makale Baslik */
+#makale_baslik{cursor:pointer;width:700px;margin-bottom:10px;background:#FF8B0D;height:50px;}
+#makale_baslik p{font:25px sans-serif;float:left;margin-left:25px;margin-top:10px;color:white;}
+#makale_baslik p:hover{color: #f1f1f1;}
+
+/* MAKALE RESİM */
+#makale_resim{width:200px;height:200px;float:left;margin-top:15px;margin-left:20px;}
+#makale_resim img{border:3px solid blue;width:200px;height:200px;cursor:pointer;-webkit-transition:border-radius 0.5s;-moz-transition:border-radius 0.5s;border-radius:95px;width:200px;height:200px;}
+#makale_resim img:hover{border-radius:5px;opacity:0.90;-webkit-transition:border-radius 0.5s;-moz-transition:border-radius 0.5s;}
+
+
+/* PAYLAŞ */
+#paylas{width:170px;height:70px;margin-left:40px;float:left;}
+#paylas p{width:160px;position: absolute;margin-top:55px;font:14px Arial;color: #777;}
+#paylas img{cursor:pointer;width:27px;height:27px;margin-left:18px;margin-top:20px;}
+#paylas img:hover{opacity: 0.80;}
+
+
+/* Yorum yap - Yazar - Görüntülenme */
+#makale_yyg{float:right;margin-top:30px;width:460px;height:40px;}
+
+/* Yazar */
+#yazar{width:90px;height:40px;margin-left:20px;}
+#yazar img{width:16px;height:16px;margin-top:20px;margin-left:8px;}
+#yazar p{width:40px;margin-right:19px;text-align: center;font:15px sans-serif;}
+
+/* Yorum yap */
+#yorum{width:100px;float:right;margin-top:-42px;height:40px;margin-right:230px;}
+#yorum img{width:13px;height:13px;margin-top:24px;}
+#yorum a{padding-left:5px;text-decoration: none;color:#333;font:15px sans-serif;}
+
+/* Görüntülenme */
+
+#goruntulenme{width:120px;float:right;height:40px;margin-right:100px;margin-top:-41px;}
+#goruntulenme img{width:16px;height:16px;margin-top:21px;}
+#goruntulenme p{width:50px;float:right;margin-top:-16px;margin-right:47px;font:15px sans-serif;color: #333;}
+
+/* TARİH */
+#tarih{width:100px;float:right;margin-right:25px;height:40px;margin-top:-41px;}
+#tarih img{width:15px;height:15px;margin-top:21px;}
+#tarih p{float:right;width:72px;margin-top:-16px;margin-right:7px;font:15px sans-serif;color: #333;}
+
+
+/* NAVBAR */
+#navbg{width:700px;height:6px;margin-top:24px;}
+#navbg img{width:700px;height:6px;margin-top:24px;}
+
+/* SİDEBAR */
+
+#sidebar{width:430px;border:1px solid #ddd;float:right;height:auto;margin-top:-380px;}
+
+/* REKLAM YAN */
+#reklam_yan{height:100px;margin: 0 auto;text-align: center;}
+#reklam_yan p{margin-top:50px;font:45px Arial;}
+
+/* SOSYAL MEDYA */
+#sosyal_medya{width:430px;height:auto;margin-top:10px;}
+#sosyal_medya p{cursor:pointer;color:white;background:#22D477;height:30px;text-align: center;padding-top:10px;font:20px Arial;}
+#sosyal_medya img{-webkit-transition: all 1s ease-in-out;3-moz-transition: all 1s ease-in-out;
+	4-o-transition: all 1s ease-in-out;5-ms-transition: all 1s ease-in-out;6transition: all 1s ease-in-out;
+cursor:pointer;width:37px;margin-left:6px;margin-top:15px;}
+
+#sosyal_medya img:hover{-webkit-transform: rotate(360deg);
+3
+-moz-transform: rotate(360deg);
+4
+-o-transform: rotate(360deg);
+5
+-ms-transform: rotate(360deg);
+}
+
+
+/* YAN MENÜ 7*/
+
+#yan_menu{width:430px;margin-top:10px;}
+#yan_menu p{cursor:pointer;color:white;background:#22D477;height:30px;text-align: center;padding-top:10px;font:20px Arial;}
+#yan_menu ul{margin:auto;}
+#yan_menu li{margin-left:30px;float:left;display:block;overflow:hidden;text-align: center;}
+#yan_menu li a{border-bottom:1px solid #ddd;margin-top:15px;
+	color:#222;margin-left:26px;padding:12px 35px;
+	text-decoration: none;font:14px Arial;display: block;}
+#yan_menu li a:hover{color:white;background: #22D477;}
+
+
+/** footer */
+#footer{width:100%;margin-top:25px;}
+#footer p{width:100%;background: #22D477;height:50px;text-align: center;font:15px Arial;color: #f1f1f1;padding-top:35px;}
